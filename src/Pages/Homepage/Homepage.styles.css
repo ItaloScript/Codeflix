@@ -1,0 +1,76 @@
+
+.Background {
+
+    background: rgb(0, 0, 0) url("../../assets/GB-en-20191007-popsignuptwoweeks-perspective_alpha_website_small.jpg") no-repeat !important;
+    height: 100%;
+    background-size: 100%;
+    
+    
+  } 
+
+  .Background > div {
+    position: absolute;
+    background:rgba(0, 0, 0, 0.651);
+    box-shadow: inset 0px -30px 130px 80px #000 ;
+    text-align: center!important; 
+    display:flex !important;
+    justify-content:center !important;
+    align-items:center !important;
+  }
+.title{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    color: white;
+    background-position: center;
+    text-align: center !important;
+   
+    justify-content:center;
+    align-items:center;
+}
+
+
+
+.logo{
+position: absolute;
+width:150px;
+top:27px;
+left: 50px;
+}
+
+.title >h1 {
+  
+   font-size:50px;
+   -webkit-font-smoothing: antialiased !important;
+   text-align: center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+div >span{
+  
+   color:white;
+
+}
+.join{
+    padding: 7px 20px 10px 20px;
+    font-size:25px;
+    color: white;
+    background-color: #e50914;
+    margin-top:50px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.join:hover{
+    filter: brightness(110%)
+   
+}
+
+.arrow{
+font-size:40px;
+
+}

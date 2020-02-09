@@ -1,0 +1,17 @@
+.banner{
+    top: -60px;
+    position: relative;
+    background-position: center !important;
+    background-size: cover !important;
+    height: 500px;
+    box-shadow: inset 400px -10px 15    0px  100px #000 ;
+}
+.titlebanner{
+    position: absolute;
+    color: white;
+    font-family: Righteous, Courier, monospace;
+    top: 100px;
+    width: 600px;
+    font-size: 200%;
+ 
+}
